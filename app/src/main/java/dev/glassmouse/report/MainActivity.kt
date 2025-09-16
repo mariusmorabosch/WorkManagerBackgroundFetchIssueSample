@@ -50,7 +50,7 @@ class MainActivity : ComponentActivity() {
 
         val request = OneTimeWorkRequestBuilder<AppEventsUploadWorker>()
             .setConstraints(constraints)
-            .setInitialDelay(20, TimeUnit.SECONDS)
+            .setInitialDelay(30, TimeUnit.SECONDS)
             .build()
 
         println("@@: Enqueueing work")
