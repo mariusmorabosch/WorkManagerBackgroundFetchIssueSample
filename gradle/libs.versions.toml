@@ -13,7 +13,7 @@ rxjava2-android = { module = "io.reactivex.rxjava2:rxandroid", version.ref = "rx
 square-okhttp = "5.0.0-alpha.16"
 square-retrofit = "2.9.0"
 square-okio = "3.1.0"
-androidx-workmanager = "2.10.3"
+androidx-workmanager = "2.11.2"
 workRuntimeKtx = "2.10.4"
 workRxjava2 = "2.10.4"
 moshi = "1.13.0"
